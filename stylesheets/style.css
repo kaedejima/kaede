@@ -29,11 +29,16 @@ body{
     padding-bottom: 500px;
     box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
 }
+@media (min-width: 1200px) {
+    .container {
+      max-width: 960px;
+    }
+  }
 .jumbotron-extend {
     position: relative;
     height: 200px;
     min-height: 300px;
-    background: url("../images/top-image.JPG") no-repeat center center;
+    background: url("../images/aeious-top.png") no-repeat center center;
     background-size: cover;
 }
 .jumbotron-container {
@@ -48,8 +53,27 @@ header .headline{
     line-height: 55px;
     font-size: 30px;
 }
-.sns-ic{
-    line-height: 50px;
+#top-sq{
+    height: 250px;
+    width: 300px;
+    padding: 20px;
+    padding-top: 30px;
+    background-color: #ffcf48;
+}
+.section{
+    padding: 30px;
+}
+#about{
+    background-color: #FFFFFB;
+}
+#profile-icon{
+    max-width: 240px;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
 footer{
     padding-left: 16px;
