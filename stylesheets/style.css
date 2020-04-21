@@ -26,14 +26,17 @@ body{
     position: relative;/*←相対位置*/
     /* padding-top: 100px; */
     /* footerの高さ */
-    padding-bottom: 500px;
+    padding-top: 79px;
     box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
 }
 @media (min-width: 1200px) {
     .container {
-      max-width: 960px;
+      max-width: 950px;
     }
-  }
+}
+.jumbotron{
+    margin-bottom: 0px;
+}
 .jumbotron-extend {
     position: relative;
     height: 200px;
@@ -67,7 +70,7 @@ header .headline{
     background-color: #FFFFFB;
 }
 #profile-icon{
-    max-width: 240px;
+    max-width: 300px;
 }
 .row-eq-height {
   display: -webkit-box;
@@ -85,4 +88,7 @@ footer{
 footer #footer-name{
     margin-top: 7px;
     margin-left: 16px;
+}
+#kdlogo-name{
+    max-width: 180px;
 }
