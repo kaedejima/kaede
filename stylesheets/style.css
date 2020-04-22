@@ -141,6 +141,11 @@ progress[value]::-webkit-progress-bar {
 .btn-more{
     padding: 20px;
 }
+.btn-secondary:hover{
+    color: #FDD968;
+    background-color:#725b4c;
+    border: none;
+}
 footer{
     padding-left: 16px;
     padding-right: 16px;
