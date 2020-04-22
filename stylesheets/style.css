@@ -137,6 +137,7 @@ progress[value]::-webkit-progress-bar {
 }
 .btn-more{
     padding: 20px;
+    margin: auto 20px;
 }
 .btn-secondary:hover{
     color: #FDD968;
