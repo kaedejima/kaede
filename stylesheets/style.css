@@ -126,13 +126,20 @@ progress[value]::-webkit-progress-bar {
     width: 70%;
 }
 .card{
-    border: none;
+    border: solid 2px #FDD968;
+    border-radius: 10px;
+}
+.card-img-top{
+    padding: 2px;
 }
 .card-title{
     margin-bottom: 0px;
 }
 .btn{
     border: none;
+}
+.btn-more{
+    padding: 20px;
 }
 footer{
     padding-left: 16px;
