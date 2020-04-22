@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 * {
     margin:0; padding:0;
-    font-family: 'Sawarabi Mincho', sans-serif;
+    /* font-family: 'Sawarabi Mincho', sans-serif; */
+    font-family: 'Amiri', 'Noto Sans JP';
     /* ruby app.rb -o 0.0.0.0 */
     /* <link rel="stylesheet" href="/assets/stylesheets/style.css"> */
 /* FDD968
@@ -20,13 +23,16 @@ FFFFFB */
 .navbar-brand {
     margin-right: 0px;
 }
+.navbar-empty{
+    height: 79px;
+}
 body{
     background-color: #FDD968;
     min-height: 100vh;
     position: relative;/*←相対位置*/
     /* padding-top: 100px; */
     /* footerの高さ */
-    padding-top: 79px;
+    /* padding-top: 79px; */
     box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
 }
 @media (min-width: 1200px) {
@@ -39,44 +45,33 @@ body{
 }
 .jumbotron-extend {
     position: relative;
-    height: 200px;
-    min-height: 300px;
-    background: url("../images/aeious-top.png") no-repeat center center;
+    /* min-height: 300px; */
+    background: url("../images/aeious-top-h.png") no-repeat center center;
     background-size: cover;
 }
 .jumbotron-container {
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-header, header .headline, .nav-list{
-    filter: drop-shadow(0px 4px 3px rgba(0,0,0,0.3));
-}
-header .headline{
-    line-height: 55px;
-    font-size: 30px;
 }
 #top-sq{
     height: 250px;
     width: 300px;
-    padding: 20px;
-    padding-top: 30px;
-    background-color: #ffcf48;
+    background-color: #ffd45c;
+    filter: blur(0px);
 }
 .section{
     padding: 30px;
-}
-#about{
-    background-color: #FFFFFB;
-}
-#profile-icon{
-    max-width: 300px;
 }
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display:         flex;
+}
+#about{
+    background-color: #FFFFFB;
+}
+#profile-icon{
+    max-width: 300px;
 }
 footer{
     padding-left: 16px;
