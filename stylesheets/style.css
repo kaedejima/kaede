@@ -31,9 +31,6 @@ body{
     background-color: #FDD968;
     min-height: 100vh;
     position: relative;/*←相対位置*/
-    /* padding-top: 100px; */
-    /* footerの高さ */
-    /* padding-top: 79px; */
     box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
 }
 @media (min-width: 1200px) {
