@@ -70,8 +70,10 @@ body{
 #about{
     background-color: #FFFFFB;
 }
-#profile-icon{
+.width-300{
     max-width: 300px;
+    padding: auto;
+    margin: auto;
 }
 footer{
     padding-left: 16px;
