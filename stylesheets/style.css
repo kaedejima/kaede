@@ -5,6 +5,7 @@
     margin:0; padding:0;
     /* font-family: 'Sawarabi Mincho', sans-serif; */
     font-family: 'Amiri', 'Noto Sans JP';
+    color: #563F2F;
     /* ruby app.rb -o 0.0.0.0 */
     /* <link rel="stylesheet" href="/assets/stylesheets/style.css"> */
 /* FDD968
@@ -59,7 +60,31 @@ body{
     filter: blur(0px);
 }
 .section{
-    padding: 30px;
+    padding: 50px;
+}
+.section h3{
+    margin-bottom: 0px;
+}
+hr{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border-color: #563F2F;
+    border-width: 3px;
+}
+.section-title{
+    margin-bottom: 30px;
+}
+.section-title-sub{
+    background-color: #FDD968;
+    margin-top: -73px;
+    margin-bottom: 30px;
+    width: 10rem;
+}
+.section-sub{
+    padding: 60px;
+    padding-bottom: 40px;
+    margin: 80px;
+    border: solid 1px #563F2F;
 }
 .row-eq-height {
   display: -webkit-box;
@@ -67,13 +92,31 @@ body{
   display: -ms-flexbox;
   display:         flex;
 }
-#about{
+.back-white{
     background-color: #FFFFFB;
+}
+progress[value]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    border-radius: 20px;
+}
+progress[value]::-webkit-progress-bar {
+    background-color: #FFFFFB50;
+    border-radius: 20px;
+}
+::-webkit-progress-value {
+    background-color: #563F2F;
+    border-radius: 20px;
 }
 .width-300{
     max-width: 300px;
     padding: auto;
     margin: auto;
+}
+.width-icon{
+    width: 70%;
 }
 footer{
     padding-left: 16px;
