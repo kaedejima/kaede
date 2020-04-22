@@ -95,6 +95,13 @@ hr{
 .back-white{
     background-color: #FFFFFB;
 }
+.back-yellow{
+    background-color: #FDD968;
+}
+.back-brown{
+    color: #FFFFFB;
+    background-color: #563F2F;
+}
 progress[value]{
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -117,6 +124,15 @@ progress[value]::-webkit-progress-bar {
 }
 .width-icon{
     width: 70%;
+}
+.card{
+    border: none;
+}
+.card-title{
+    margin-bottom: 0px;
+}
+.btn{
+    border: none;
 }
 footer{
     padding-left: 16px;
