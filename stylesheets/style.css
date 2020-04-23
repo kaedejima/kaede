@@ -110,7 +110,7 @@ hr{
 }
 @media (max-width: 992px){
     .section-sub{
-        padding: 60px 40px;
+        padding: 55px 40px 20px 40px;
     }
 }
 .row-eq-height {
