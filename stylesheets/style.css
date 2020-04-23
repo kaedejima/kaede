@@ -13,7 +13,20 @@
 FFFFFB */
 /* localhost:8888/ */
 }
-
+@media (min-width: 992px){
+    .container-fluid{
+        width: 80%;
+    }
+}
+@media (max-width: 992px){
+    #about .container-fluid{
+        margin: auto;
+        max-width: 540px;
+    }
+    .container-fluid{
+        width: 90%;
+    }
+}
 .navbar-dark{
     background-color: #563F2F;
 }
@@ -57,7 +70,8 @@ body{
     filter: blur(0px);
 }
 .section{
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px; 
 }
 .section h3{
     margin-bottom: 0px;
@@ -80,7 +94,7 @@ hr{
 .section-sub{
     padding: 60px;
     padding-bottom: 40px;
-    margin: 80px;
+    margin: 0px;
     border: solid 1px #563F2F;
 }
 .row-eq-height {
@@ -124,7 +138,7 @@ progress[value]::-webkit-progress-bar {
 }
 .card{
     border: solid 2px #FDD968;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 .card-img-top{
     padding: 2px;
@@ -132,12 +146,20 @@ progress[value]::-webkit-progress-bar {
 .card-title{
     margin-bottom: 0px;
 }
+.card-text{
+    margin-bottom: 0px;
+}
+.card-body{
+    border: solid 2px #FDD968;
+    border-radius: 10px;
+}
 .btn{
+    margin-top: 10px;
     border: none;
 }
 .btn-more{
     padding: 20px;
-    margin: auto 20px;
+    margin: 20px;
 }
 .btn-secondary:hover{
     color: #FDD968;
@@ -157,4 +179,7 @@ footer #footer-name{
 }
 #kdlogo-name{
     max-width: 180px;
+}
+#kotlin-icon{
+    width: 56px;
 }
