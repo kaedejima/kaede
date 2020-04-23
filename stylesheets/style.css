@@ -24,7 +24,14 @@ FFFFFB */
         max-width: 540px;
     }
     .container-fluid{
-        width: 90%;
+        width: 95%;
+    }
+}
+/* small devices */
+@media (max-width: 576px) {
+    #say-hi .form-border{
+        padding: 0px 0px;
+        border: solid 0px #563F2F;
     }
 }
 .navbar-dark{
@@ -83,7 +90,7 @@ hr{
     border-width: 3px;
 }
 .section-title{
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 .section-title-sub{
     background-color: #FDD968;
@@ -93,9 +100,12 @@ hr{
 }
 .section-sub{
     padding: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     margin: 0px;
     border: solid 1px #563F2F;
+}
+#skills .navbar-empty{
+    height: 30px;
 }
 @media (max-width: 992px){
     .section-sub{
@@ -183,6 +193,10 @@ progress[value]::-webkit-progress-bar {
 }
 .form-group{
     margin: 20px auto;
+}
+.form-border{
+    padding: 30px 20px;
+    border: solid 1px #563F2F;
 }
 footer{
     padding-left: 16px;
