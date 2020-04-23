@@ -97,6 +97,11 @@ hr{
     margin: 0px;
     border: solid 1px #563F2F;
 }
+@media (max-width: 992px){
+    .section-sub{
+        padding: 60px 40px;
+    }
+}
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
@@ -104,14 +109,19 @@ hr{
   display:         flex;
 }
 .back-white{
+    color: #563F2F;
     background-color: #FFFFFB;
 }
 .back-yellow{
+    color: #563F2F;
     background-color: #FDD968;
 }
 .back-brown{
     color: #FFFFFB;
     background-color: #563F2F;
+}
+.back-red{
+    background-color: #ef5655;
 }
 progress[value]{
     -webkit-appearance: none;
@@ -142,6 +152,7 @@ progress[value]::-webkit-progress-bar {
 }
 .card-img-top{
     padding: 2px;
+    filter: grayscale(100%);
 }
 .card-title{
     margin-bottom: 0px;
@@ -159,12 +170,19 @@ progress[value]::-webkit-progress-bar {
 }
 .btn-more{
     padding: 20px;
-    margin: 20px;
+    margin: auto;
 }
 .btn-secondary:hover{
-    color: #FDD968;
-    background-color:#725b4c;
+    color: #563F2F;
+    background-color:#ffbb00;
     border: none;
+}
+.form-control{
+    border: 1px solid #563F2F;
+    height: initial;
+}
+.form-group{
+    margin: 20px auto;
 }
 footer{
     padding-left: 16px;
