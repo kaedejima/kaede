@@ -33,6 +33,7 @@ FFFFFB */
         padding: 0px 0px;
         border: solid 0px #563F2F;
     }
+
 }
 .navbar-dark{
     background-color: #563F2F;
@@ -186,6 +187,9 @@ progress[value]::-webkit-progress-bar {
     color: #563F2F;
     background-color:#ffbb00;
     border: none;
+}
+form{
+    max-width: 540px;
 }
 .form-control{
     border: 1px solid #563F2F;
