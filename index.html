@@ -8,6 +8,7 @@
   <script src="https://kit.fontawesome.com/7a3e195c2e.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="./stylesheets/style.css">
+  <script src="/js/script.js" defer></script>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark static-top fixed-top">
@@ -80,6 +81,14 @@
         <a href="#skills" class="btn btn-secondary back-brown btn-more text-uppercase">
           See my Skills
         </a>
+      </div>
+      <div class="text-center">
+        <p class="sendLove btn btn-secondary btn-more text-uppercase back-brown">
+          Send LOVE
+        </p>
+        <div class="resultParas">
+          <p class="printArea"></p>
+        </div>
       </div>
     </div>
   </div>
@@ -251,27 +260,28 @@
         <h4>Thank you for taking time to visit here. <br> How can I help you today?</h4>
       </div>
       <div id="contact-form" class="form-border">
-
-          <form class="mx-auto">
-            <div class="form-group">
-                <label>Name</label>
-                <input type="text" name="email" class="form-control back-yellow">
+        <form class="mx-auto">
+          <div class="form-group">
+              <label>Name</label>
+              <input type="text" name="email" class="form-control back-yellow">
+          </div>
+          <div class="form-group">
+              <label>E-mail address</label>
+              <input type="text" name="password" class="form-control back-yellow">
+          </div>
+          <div class="form-group">
+            <label for="textarea1">Message</label>
+            <textarea id="textarea1" class="form-control back-yellow"></textarea>
+          </div>
+          <div class="text-center">
+            <p class="sendForm btn btn-secondary back-red btn-more text-uppercase">
+              Contact ME
+            </p>
+            <div class="resultParas">
+              <p id="thxMes"></p>
             </div>
-            <div class="form-group">
-                <label>E-mail address</label>
-                <input type="text" name="password" class="form-control back-yellow">
-            </div>
-            <div class="form-group">
-              <label for="textarea1">Message</label>
-              <textarea id="textarea1" class="form-control back-yellow"></textarea>
-            </div>
-            <div class="text-center">
-              <button type="submit" class="btn btn-secondary back-red btn-more text-uppercase">
-                Contact ME
-              </button>
-            </div>
+          </div>
           </form>
-
       </div>
     </div>
   </div>
