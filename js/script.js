@@ -5,13 +5,13 @@ const printThx = document.querySelector('#thxMes');
 let resetButton;
 let i = 1;
 
+loveSubmit.addEventListener('click', checkLove);
+sendForm.addEventListener('click', thxMessage);
 function checkLove() {
     printArea.textContent += 'I love you, too: ' + i;
     i++;
 }
-loveSubmit.addEventListener('click', checkLove);
 
 function thxMessage() {
     printThx.textContent += ' Thanks for contacting me! ';
 }
-sendForm.addEventListener('click', thxMessage);
