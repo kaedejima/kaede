@@ -1,0 +1,295 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Sawarabi Mincho', sans-serif; */
+    font-family: 'Amiri', 'Noto Sans JP';
+    color: #563F2F;
+    /* ruby app.rb -o 0.0.0.0 */
+    /* <link rel="stylesheet" href="/assets/stylesheets/style.css"> */
+    /* FDD968
+563F2F
+FFFFFB */
+    /* localhost:8888/ */
+}
+
+@media (min-width: 992px) {
+    .container-fluid {
+        width: 80%;
+    }
+}
+
+@media (max-width: 992px) {
+    #about .container-fluid {
+        margin: auto;
+        max-width: 540px;
+    }
+
+    .container-fluid {
+        width: 95%;
+    }
+}
+
+/* small devices */
+@media (max-width: 576px) {
+    #say-hi .form-border {
+        padding: 0px 0px;
+        border: solid 0px #563F2F;
+    }
+
+}
+
+.navbar-dark {
+    background-color: #563F2F;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    margin: 5px auto;
+    background-image: url(../images/ham-icon.png);
+}
+
+#hamburger {
+    transition: all 500ms 0s ease;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+#kdlogo {
+    width: 100px;
+    margin: auto;
+}
+
+.navbar-brand {
+    margin-right: 0px;
+}
+
+.navbar-empty {
+    height: 79px;
+}
+
+body {
+    background-color: #FDD968;
+    min-height: 100vh;
+    position: relative;
+    /*←相対位置*/
+    box-sizing: border-box;
+    /*←全て含めてmin-height:100vhに*/
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 950px;
+    }
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.jumbotron-extend {
+    position: relative;
+    /* min-height: 300px; */
+    background: url("../images/aeious-top-h.png") no-repeat center center;
+    background-size: cover;
+}
+
+.jumbotron-container {
+    position: relative;
+}
+
+#top-sq {
+    height: 250px;
+    width: 300px;
+    background-color: #ffd45c;
+    filter: blur(0px);
+}
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section h3 {
+    margin-bottom: 0px;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border-color: #563F2F;
+    border-width: 3px;
+}
+
+.section-title {
+    margin-bottom: 25px;
+}
+
+.section-title-sub {
+    background-color: #FDD968;
+    margin-top: -73px;
+    margin-bottom: 30px;
+    width: 10rem;
+}
+
+.section-sub {
+    padding: 60px;
+    padding-bottom: 20px;
+    margin: 0px;
+    border: solid 1px #563F2F;
+}
+
+#skills .navbar-empty {
+    height: 30px;
+}
+
+@media (max-width: 992px) {
+    .section-sub {
+        padding: 55px 40px 20px 40px;
+    }
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.back-white {
+    color: #563F2F;
+    background-color: #FFFFFB;
+}
+
+.back-yellow {
+    color: #563F2F;
+    background-color: #FDD968;
+}
+
+.back-brown {
+    color: #FFFFFB;
+    background-color: #563F2F;
+}
+
+.back-red {
+    background-color: #ef5655;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    border-radius: 20px;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #FFFFFB50;
+    border-radius: 20px;
+}
+
+::-webkit-progress-value {
+    background-color: #563F2F;
+    border-radius: 20px;
+}
+
+.width-300 {
+    max-width: 300px;
+    padding: auto;
+    margin: auto;
+}
+
+.width-icon {
+    width: 70%;
+}
+
+.card {
+    border: solid 2px #FDD968;
+    border-radius: 12px;
+}
+
+.card-img-top {
+    padding: 2px;
+    filter: grayscale(100%);
+}
+
+.card-title {
+    margin-bottom: 0px;
+}
+
+.card-text {
+    margin-bottom: 0px;
+}
+
+.card-body {
+    border: solid 2px #FDD968;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+    border: none;
+}
+
+.btn-more {
+    padding: 20px;
+    margin: auto;
+}
+
+.btn-secondary:hover {
+    color: #563F2F;
+    background-color: #ffbb00;
+    border: none;
+}
+
+form {
+    max-width: 540px;
+}
+
+.form-control {
+    border: 1px solid #563F2F;
+    height: initial;
+}
+
+.form-group {
+    margin: 20px auto;
+}
+
+.form-border {
+    padding: 30px 20px;
+    border: solid 1px #563F2F;
+}
+
+footer {
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    background-color: #563F2F;
+    color: #FFFFFB;
+}
+
+footer #footer-name {
+    margin-top: 7px;
+    margin-left: 16px;
+}
+
+#kdlogo-name {
+    max-width: 180px;
+}
+
+#kotlin-icon {
+    width: 56px;
+}
