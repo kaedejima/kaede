@@ -1,5 +1,5 @@
 # Hi, I'm KD 👋🏼 👩🏻‍💻
-Thank you for visiting my github page. ✨✨ \
+Thank you for visiting my personal repository. ✨✨ \
 I hope you would know more about me.
 
 # About KD
