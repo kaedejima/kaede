@@ -249,6 +249,10 @@ progress[value]::-webkit-progress-bar {
     margin: auto;
 }
 
+.btn-github {
+    padding: 10px;
+}
+
 .btn-secondary:hover {
     color: #563F2F;
     background-color: #ffbb00;
