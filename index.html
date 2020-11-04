@@ -6,20 +6,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>[K:D] Kaede's Profile</title>
+  <meta name="description" content="This is the personal website of KD." />
+  <meta name="keywords" content="portfolio student" />
   <script src="https://kit.fontawesome.com/7a3e195c2e.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="page-home">
   <nav class="navbar navbar-expand-lg navbar-dark static-top fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img id="kdlogo" src="./images/kdlogo.png" alt="">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" id="hamburger">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" id="hamburger">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -45,7 +45,6 @@
       </div>
     </div>
   </nav>
-  <div class="navbar-empty"></div>
   <div class="jumbotron jumbotron-extend">
     <div class="container-fluid jumbotron-container">
       <div id="top-sq" class="mx-auto text-center">
@@ -66,7 +65,7 @@
       </div>
       <div id="about-contents" class="mx-auto mb-4">
         <div class="row row-eq-height align-items-center">
-          <div class="col-md-6 width-300">
+          <div class="col-md-6 width-300 about-icon">
             <a>
               <img src="./images/profile-icon-01.png" class="img-fluid mx-auto d-block">
             </a>
@@ -83,6 +82,25 @@
             </div>
           </div>
         </div>
+        <div class="section-sub">
+          <h4 class="text-center section-title-sub back-white mx-auto">Experience</h4>
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <!-- <h4>Internships/Hackathons</h4> -->
+              <ul>
+                <li>2019- <span class="company-name">Life is Tech!</span> Android/WebService mentor
+                </li>
+                <li>2019- <span class="company-name">Tentoten</span> Web Designer</li>
+                <li>2019 <span class="company-name">DreamOnline</span> Web Designer</li>
+                <li>2019 <span class="company-name">PADERO</span> Hackathon, PADERO workshop</li>
+                <li>2020 <span class="company-name">SIG Software Engineering</span> SES2020 Poster presntation</li>
+                <li>2020 <span class="company-name">Japan Research Institute</span> DX Engineer</li>
+                <li>2020 <span class="company-name">enPiT AiBiC</span> enPiT Summer Workshop</li>
+              </ul>
+              <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -93,20 +111,19 @@
         <hr />
         <p>開発・制作技術</p>
       </div>
-      <div class="navbar-empty"></div>
       <div class="section-sub">
-        <h4 class="text-center section-title-sub mx-auto">Experience</h4>
-        <div class="pb-group">
-          <label for="progressbar">Graphic Design</label>
-          <progress id="progressbar" max="100" value="80">80%</progress>
-        </div>
-        <div class="pb-group">
-          <label for="progressbar">Web Design</label>
-          <progress id="progressbar" max="100" value="70">70%</progress>
-        </div>
+        <h4 class="text-center section-title-sub mx-auto">Products</h4>
+        <ul>
+          <li>2019- <span class="company-name">Life is Tech!</span> Android/WebService mentor
+          </li>
+          <li>2019- <span class="company-name">Tentoten</span> Web Designer</li>
+          <li>2019 <span class="company-name">DreamOnline</span> Web Designer</li>
+          <li>2019 <span class="company-name">PADERO</span> Hackathon, PADERO workshop</li>
+          <li>2020 <span class="company-name">Japan Research Institute</span> DX Engineer</li>
+          <li>2020 <span class="company-name">enPiT AiBiC</span> enPiT Summer Workshop</li>
+        </ul>
+        <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a>
       </div>
-      <div class="navbar-empty"></div>
-      <div class="navbar-empty"></div>
       <div class="section-sub">
         <h4 class="text-center section-title-sub mx-auto">Languages</h4>
         <div class="row row-eq-height">
@@ -157,11 +174,60 @@
             <div class="card">
               <img src="images/works-001.png" class="card-img-top" alt="">
               <div class="card-body back-yellow text-center">
+                <h5 class="card-title">Minimabank v2</h5>
+                <hr />
+                <p class="card-text">-Android app-</p>
+                <p class="card-text">Personal</p>
+                <!--                 <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 my-2">
+            <a target="_blank" rel="noopener noreferrer" href="#">
+              <div class="card">
+                <img src="images/works-001.png" class="card-img-top" alt="">
+                <div class="card-body back-yellow text-center">
+                  <h5 class="card-title">Takagi Accounting Firm</h5>
+                  <hr />
+                  <p class="card-text">-WP development-</p>
+                  <p class="card-text">Internship work</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-sm-4 my-2">
+            <div class="card">
+              <img src="images/works-001.png" class="card-img-top" alt="">
+              <div class="card-body back-yellow text-center">
+                <h5 class="card-title">SES Symposium</h5>
+                <hr />
+                <p class="card-text">-Research-</p>
+                <p class="card-text">School Research</p>
+                <!--                 <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 my-2">
+            <div class="card">
+              <img src="images/works-001.png" class="card-img-top" alt="">
+              <div class="card-body back-yellow text-center">
+                <h5 class="card-title">imactive</h5>
+                <hr />
+                <p class="card-text">-slack app-</p>
+                <p class="card-text">School Research</p>
+                <!--                 <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 my-2">
+            <div class="card">
+              <img src="images/works-001.png" class="card-img-top" alt="">
+              <div class="card-body back-yellow text-center">
                 <h5 class="card-title">Icon</h5>
                 <hr />
                 <p class="card-text">-Graphic-</p>
                 <p class="card-text">Personal</p>
-<!--                 <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
+                <!--                 <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
               </div>
             </div>
           </div>
@@ -173,21 +239,23 @@
                 <hr />
                 <p class="card-text">-Android-</p>
                 <p class="card-text">Personal</p>
-<!--                 <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
+                <!--                 <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
               </div>
             </div>
           </div>
           <div class="col-6 col-sm-4 my-2">
-            <div class="card">
-              <img src="images/works-003.png" class="card-img-top" alt="">
-              <div class="card-body back-yellow text-center">
-                <h5 class="card-title">Color Picker</h5>
-                <hr />
-                <p class="card-text">-Android-</p>
-                <p class="card-text">Personal</p>
-<!--                 <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
+            <a target="_blank" rel="noopener noreferrer" href="work-03.html">
+              <div class="card">
+                <img src="images/works-003.png" class="card-img-top" alt="">
+                <div class="card-body back-yellow text-center">
+                  <h5 class="card-title">Color Picker</h5>
+                  <hr />
+                  <p class="card-text">-Android-</p>
+                  <p class="card-text">Personal</p>
+                  <!--                 <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
+                </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="col-6 col-sm-4 my-2">
             <div class="card">
@@ -197,7 +265,7 @@
                 <hr />
                 <p class="card-text">-Graphic-</p>
                 <p class="card-text">Personal</p>
-<!--                 <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
+                <!--                 <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
               </div>
             </div>
           </div>
@@ -209,7 +277,7 @@
                 <hr />
                 <p class="card-text">-Graphic-</p>
                 <p class="card-text">Personal</p>
-<!--                 <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
+                <!--                 <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
               </div>
             </div>
           </div>
@@ -221,7 +289,7 @@
                 <hr />
                 <p class="card-text">-Graphic-</p>
                 <p class="card-text">Personal</p>
-<!--                 <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
+                <!--                 <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
               </div>
             </div>
           </div>
@@ -229,16 +297,16 @@
       </div>
       <div class="text-center">
         <div class="row">
-<!--           <div class="col">
+          <!--           <div class="col">
              <a href="#" class="btn btn-secondary back-brown btn-more text-uppercase float-right">
               See more works
             </a>
           </div> -->
-<!--           <div class="text-center col"> -->
-            <a href="#say-hi" class="btn btn-secondary back-red btn-more text-uppercase float-left">
-              Contact me
-             </a>
-<!--           </div> -->
+          <!--           <div class="text-center col"> -->
+          <a href="#say-hi" class="btn btn-secondary back-red btn-more text-uppercase float-left">
+            Contact me
+          </a>
+          <!--           </div> -->
         </div>
       </div>
     </div>
@@ -356,16 +424,12 @@
     <!-- Copyright -->
 
   </footer>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-  <script src="js/script.js" defer></script>
+  <section>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+  </section>
 </body>
 
 </html>

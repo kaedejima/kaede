@@ -44,6 +44,7 @@ FFFFFB */
 
 .navbar-dark {
     background-color: #563F2F;
+    filter: drop-shadow(1px 1px 5px #00000030);
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -88,8 +89,16 @@ body {
     /*←相対位置*/
     box-sizing: border-box;
     /*←全て含めてmin-height:100vhに*/
+    padding-top: 79px;
 }
 
+ul{
+    list-style-type: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
 @media (min-width: 1200px) {
     .container {
         max-width: 950px;
@@ -99,10 +108,15 @@ body {
 .jumbotron {
     margin-bottom: 0px;
 }
-
-.jumbotron-extend {
+.jumbotron-extend{
     position: relative;
-    /* min-height: 300px; */
+}
+
+.page-home .jumbotron-extend {
+    background: url("../images/aeious-top-h.png") no-repeat center center;
+    background-size: cover;
+}
+.page-work03 .jumbotron-extend {
     background: url("../images/aeious-top-h.png") no-repeat center center;
     background-size: cover;
 }
@@ -147,13 +161,10 @@ hr {
 
 .section-sub {
     padding: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     margin: 0px;
+    margin-top: 60px;
     border: solid 1px #563F2F;
-}
-
-#skills .navbar-empty {
-    height: 30px;
 }
 
 @media (max-width: 992px) {
@@ -217,8 +228,12 @@ progress[value]::-webkit-progress-bar {
 }
 
 .card {
-    border: solid 2px #FDD968;
+    border: solid 3px #FDD968;
     border-radius: 12px;
+    filter: drop-shadow(1px 1px 3px #00000015);
+}
+.card:hover {
+    border: solid 3px #ffbb00;
 }
 
 .card-img-top {
@@ -289,6 +304,9 @@ footer #footer-name {
     margin-top: 7px;
     margin-left: 16px;
 }
+.about-icon{
+    filter: drop-shadow(1px 1px 5px #00000030);
+}
 
 #kdlogo-name {
     max-width: 180px;
@@ -296,4 +314,8 @@ footer #footer-name {
 
 #kotlin-icon {
     width: 56px;
+}
+
+.company-name{
+    font-weight: bold;
 }
