@@ -34,13 +34,9 @@ FFFFFB */
 }
 
 /* small devices */
-@media (max-width: 576px) {
-    #say-hi .form-border {
-        padding: 0px 0px;
-        border: solid 0px #563F2F;
-    }
+/* @media (max-width: 576px) {
 
-}
+} */
 
 .navbar-dark {
     background-color: #563F2F;
