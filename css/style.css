@@ -324,3 +324,6 @@ footer #footer-name {
     padding-right: 30px;
     padding-left: 30px;
 }
+.inactive{
+    display: none;
+}
