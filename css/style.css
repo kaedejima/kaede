@@ -117,7 +117,7 @@ a:hover{
     position: relative;
 }
 
-.page-home .jumbotron-extend {
+.jumbotron-extend {
     background: url("../images/aeious-top-h.png") no-repeat center center;
     background-size: cover;
 }

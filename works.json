@@ -1,0 +1,81 @@
+{
+  "work-001": {
+    "title": "cap-icon",
+    "home-link": false,
+    "custom-page": {
+      "exist": false
+    }
+  },
+  "work-002": {
+    "title": "minimabank-v1",
+    "home-link": false,
+    "custom-page": {
+      "exist": false
+    }
+  },
+  "work-003": {
+    "title": "color-picker",
+    "home-link": true,
+    "custom-page": {
+      "exist": true,
+      "page-content": true
+    }
+  },
+  "work-004": {
+    "title": "apple-power",
+    "home-link": false,
+    "custom-page": {
+      "exist": false
+    }
+  },
+  "work-005": {
+    "title": "waseda-koukoku",
+    "home-link": false,
+    "custom-page": {
+      "exist": false
+    }
+  },
+  "work-006": {
+    "title": "textlogo",
+    "home-link": false,
+    "custom-page": {
+      "exist": false
+    }
+  },
+  "work-007": {
+    "title": "takagi-kaikei",
+    "home-link": false,
+    "custom-page": {
+      "exist": false
+    }
+  },
+  "work-008": {
+    "title": "ses2020",
+    "home-link": false,
+    "custom-page": {
+      "exist": false
+    }
+  },
+  "work-009": {
+    "title": "imactive",
+    "home-link": false,
+    "custom-page": {
+      "exist": false
+    }
+  },
+  "work-010": {
+    "title": "tentoten-hp",
+    "home-link": false,
+    "custom-page": {
+      "exist": false
+    }
+  },
+  "work-011": {
+    "title": "hello-kd",
+    "home-link": true,
+    "custom-page": {
+      "exist": true,
+      "page-content": true
+    }
+  }
+}
