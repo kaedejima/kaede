@@ -61,9 +61,10 @@
   "work-008": {
     "title": "ses2020",
     "exist": true,
-    "home-link": false,
+    "home-link": true,
     "custom-page": {
-      "exist": false
+      "exist": true,
+      "page-content": true
     }
   },
   "work-009": {
@@ -76,10 +77,11 @@
   },
   "work-010": {
     "title": "tentoten-hp",
-    "exist": false,
-    "home-link": false,
+    "exist": true,
+    "home-link": true,
     "custom-page": {
-      "exist": false
+      "exist": true,
+      "page-content": true
     }
   },
   "work-011": {
