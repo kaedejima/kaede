@@ -96,8 +96,13 @@ ul{
     list-style-type: none;
 }
 
+a{
+    color: #563F2F;
+}
+
 a:hover{
     text-decoration: none;
+    color: #563F2F;
 }
 @media (min-width: 1200px) {
     .container {
@@ -113,10 +118,6 @@ a:hover{
 }
 
 .page-home .jumbotron-extend {
-    background: url("../images/aeious-top-h.png") no-repeat center center;
-    background-size: cover;
-}
-.page-work03 .jumbotron-extend {
     background: url("../images/aeious-top-h.png") no-repeat center center;
     background-size: cover;
 }
@@ -238,7 +239,7 @@ progress[value]::-webkit-progress-bar {
 
 .card-img-top {
     padding: 2px;
-    filter: grayscale(100%);
+    filter: grayscale(100%) blur(0.5px);
 }
 
 .card-title {
@@ -264,7 +265,7 @@ progress[value]::-webkit-progress-bar {
     margin: auto;
 }
 
-.btn-github {
+.btn-mylinks {
     padding: 10px;
 }
 
@@ -318,4 +319,8 @@ footer #footer-name {
 
 .company-name{
     font-weight: bold;
+}
+.links-block{
+    padding-right: 30px;
+    padding-left: 30px;
 }
