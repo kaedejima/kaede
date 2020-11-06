@@ -1,6 +1,10 @@
 # Hi, I'm KD 👋🏼 👩🏻‍💻
-Thank you for visiting my personal repository. ✨✨ \
-I hope you would know more about me.
+<img src="./img/github-wideheader.png" />
+Thank you for taking time visiting my github page. ✨✨ I hope you would know more about me.
+<!-- 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kaedejima&count_private=true&show_icons=true&theme=tokyonight)
+![GitHub Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kaedejima&layout=compact&theme=tokyonight)
+-->
 
 # About KD
 ## 🙋🏻‍♀️Overview
@@ -48,7 +52,7 @@ Participated in the project of developing application of Pepper for the topic; "
 -->
 
 ## 🎓 Educations
-- B.S. Computer Science and Engineering, Waseda University(Degree Expected in March 2022).
-- Courses: Algorithm and Data Structure, Databases, Information Network System
+- B.S. Computer Science and Engineering, Waseda University(Degree Expected in March 2022).\
+Courses: Algorithm and Data Structure, Databases, Information Network System
 
 Last updated on Oct 2020
