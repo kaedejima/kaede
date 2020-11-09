@@ -1,0 +1,275 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Amiri', 'Noto Sans JP';
+  color: #563F2F;
+}
+
+body {
+  background-color: #FDD968;
+  min-height: 100vh;
+  position: relative;
+  /*←相対位置*/
+  box-sizing: border-box;
+  /*←全て含めてmin-height:100vhに*/
+  padding-top: 79px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #563F2F;
+}
+a:hover {
+  text-decoration: none;
+  color: #563F2F;
+}
+
+hr {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border-color: #563F2F;
+  border-width: 3px;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.section h3 {
+  margin-bottom: 0px;
+}
+
+.section-title {
+  margin-bottom: 25px;
+}
+
+.section-title-sub {
+  background-color: #FDD968;
+  margin-top: -73px;
+  margin-bottom: 30px;
+  width: 10rem;
+}
+
+.section-sub {
+  padding: 60px;
+  padding-bottom: 40px;
+  margin: 0px;
+  margin-top: 60px;
+  border: solid 1px #563F2F;
+}
+
+/* background templates */
+.back-white {
+  color: #563F2F;
+  background-color: #FFFFFB;
+}
+
+.back-yellow {
+  color: #563F2F;
+  background-color: #FDD968;
+}
+
+.back-brown {
+  color: #FFFFFB;
+  background-color: #563F2F;
+}
+
+.back-red {
+  background-color: #ef5655;
+}
+
+/* BUTTONS */
+.btn {
+  margin-top: 10px;
+  border: none;
+}
+
+.btn-more {
+  padding: 20px;
+  margin: auto;
+}
+
+.btn-mylinks {
+  padding: 10px;
+}
+
+.btn-secondary:hover {
+  color: #563F2F;
+  background-color: #ffbb00;
+  border: none;
+}
+
+.drop-shadow {
+  filter: drop-shadow(1px 1px 5px #00000030);
+}
+
+.links-block {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.inactive {
+  display: none;
+}
+
+/* NOT USED but incase, for progressbar */
+progress[value] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  border-radius: 20px;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #FFFFFB50;
+  border-radius: 20px;
+}
+
+::-webkit-progress-value {
+  background-color: #563F2F;
+  border-radius: 20px;
+}
+
+/* NOT USED for forms */
+form {
+  max-width: 540px;
+}
+
+.form-control {
+  border: 1px solid #563F2F;
+  height: initial;
+}
+
+.form-group {
+  margin: 20px auto;
+}
+
+.form-border {
+  padding: 30px 20px;
+  border: solid 1px #563F2F;
+}
+
+/* navbar */
+.navbar-dark {
+  background-color: #563F2F;
+  filter: drop-shadow(1px 1px 5px #00000030);
+}
+
+.navbar-dark .navbar-toggler-icon {
+  margin: 5px auto;
+  background-image: url(../images/ham-icon.png);
+}
+
+/* hamburger */
+#hamburger {
+  transition: all 500ms 0s ease;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+/* disable hamburger border */
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+#kdlogo {
+  width: 100px;
+  margin: auto;
+}
+
+.navbar-empty {
+  height: 79px;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+
+.jumbotron-extend {
+  position: relative;
+}
+
+.jumbotron-extend {
+  background: url("../images/aeious-top-h.png") no-repeat center center;
+  background-size: cover;
+}
+
+.jumbotron-container {
+  position: relative;
+}
+
+#top-sq {
+  height: 250px;
+  width: 300px;
+  background-color: #ffd45c;
+  filter: blur(0px);
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+  border: solid 3px #FDD968;
+  border-radius: 12px;
+  filter: drop-shadow(1px 1px 5px #00000030);
+}
+.card:hover {
+  border: solid 3px #ffbb00;
+}
+
+.card-img-top {
+  padding: 2px;
+  filter: grayscale(100%) blur(0.5px);
+}
+
+.card-title {
+  margin-bottom: 0px;
+}
+
+.card-text {
+  margin-bottom: 0px;
+}
+
+.card-body {
+  border: solid 2px #FDD968;
+  border-radius: 10px;
+}
+
+footer {
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+  background-color: #563F2F;
+  color: #FFFFFB;
+}
+footer #footer-name {
+  margin-top: 7px;
+  margin-left: 16px;
+}
+
+#kdlogo-name {
+  max-width: 180px;
+}
+
+/* scss kaedei$ sass style.scss:style.css --style expanded --watch */
+
+/*# sourceMappingURL=style.css.map */

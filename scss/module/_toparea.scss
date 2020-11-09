@@ -1,0 +1,24 @@
+@import "../setting/colors.scss";
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+.jumbotron-extend{
+    position: relative;
+}
+
+.jumbotron-extend {
+    background: url("../images/aeious-top-h.png") no-repeat center center;
+    background-size: cover;
+}
+
+.jumbotron-container {
+    position: relative;
+}
+
+#top-sq {
+    height: 250px;
+    width: 300px;
+    background-color: #ffd45c;
+    filter: blur(0px);
+}
