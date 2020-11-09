@@ -90,6 +90,11 @@ hr {
   margin-top: 10px;
   border: none;
 }
+.btn:hover {
+  color: #563F2F;
+  background-color: #ffbb00;
+  border: none;
+}
 
 .btn-more {
   padding: 20px;
@@ -100,23 +105,22 @@ hr {
   padding: 10px;
 }
 
-.btn-secondary:hover {
-  color: #563F2F;
-  background-color: #ffbb00;
-  border: none;
-}
-
 .drop-shadow {
   filter: drop-shadow(1px 1px 5px #00000030);
 }
 
+.inactive {
+  display: none;
+}
+
+/* PAGES??? */
 .links-block {
   padding-right: 30px;
   padding-left: 30px;
 }
 
-.inactive {
-  display: none;
+#kotlin-icon {
+  width: 56px;
 }
 
 /* NOT USED but incase, for progressbar */
