@@ -1,3 +1,3 @@
-index: nav nolink for home.
-index experience: "take a look" button disable or make page.
-css: color make it more bright.scss?
+theme: decide color pallete
+theme: activate switcher.
+language: work pages switchers
