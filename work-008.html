@@ -5,14 +5,14 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>[K:D] Reserch Poster | Kaede's Works</title>
+  <title>[K:D] Reserch Poster | SES2020 | KD's Works</title>
   <link rel="icon" type="image/x-icon" href="./images/favicon.png">
   <meta name="description" content="This is the personal website of KD." />
   <meta name="keywords" content="portfolio student research poster" />
   <meta property="og:image" content="https://hello-kd.work/images/work-011.png" />
   <script src="https://kit.fontawesome.com/7a3e195c2e.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./scss/style.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DFDLJR91EF"></script>
   <script>
@@ -24,10 +24,10 @@
   </script>
 </head>
 
-<body class="page-work002">
+<body class="page-work008">
   <nav class="navbar navbar-expand-lg navbar-dark static-top fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="https://hello-kd.work/">
+      <a class="navbar-brand" href="./index.html">
         <img id="kdlogo" src="./images/kdlogo.png" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" id="hamburger">
@@ -36,17 +36,17 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="https://hello-kd.work/">Home
+            <a class="nav-link" href="./index.html">Home
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#about">About</a>
+            <a class="nav-link" href="./index.html#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#skills">Skills</a>
+            <a class="nav-link" href="./index.html#skills">Skills</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="index.html#works">Works
+            <a class="nav-link" href="./work-home.html">Works
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -76,7 +76,7 @@
         <p>Research Work</p>
       </div>
       <div id="about-contents" class="mx-auto mb-4">
-        <div class="row row-eq-height align-items-center">
+        <div class="row row-eq-height align-items-center my-4">
           <div class="col-md-6 width-300 about-icon">
             <a>
               <img src="./images/work-008.png" class="img-fluid mx-auto d-block">
@@ -103,17 +103,29 @@
           </div>
         </div>
 
-        <div class="w-75 mx-auto text-center">
-          <a>
+        <div class="w-75 mx-auto text-center my-3">
+          <a class="btn btn-secondary back-white btn-more my-3">
             <h4 class="work-more"><i class="fas fa-chevron-down fa-sm"></i>  VIEW FULL  <i class="fas fa-chevron-down fa-sm"></i></h4>
           </a>
           <br>
-          <img src="./images/work-008-full.png" class="work-more-content about-icon inactive" width="100%">
+          <img src="./images/work-008-full.png" class="work-more work-more-content about-icon inactive" width="100%">
+        </div>
+        <div class="row">
+          <div class="col mx-auto">
+            <a href="./work-home.html" class="btn btn-secondary back-red btn-more text-uppercase drop-shadow float-right">
+              Back to Works
+            </a>
+          </div>
+          <div class="col mx-auto">
+            <a href="./index.html" class="btn btn-secondary back-brown btn-more text-uppercase float-left">
+              Back to home
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div id="say-hi"" class=" section container-fluid">
+  <div id="say-hi" class=" section container-fluid">
     <div class="container">
       <div class="section-title text-center">
         <h3>Hello, this is Kaede!</h3>
@@ -121,10 +133,12 @@
         <p>お問い合わせ</p>
       </div>
       <div class="mx-auto text-center" style="max-width: 500px; margin-bottom: 30px;">
-        <h4>Thank you for taking time to visit here. <br> How can I help you today?</h4>
-      </div>
-      <div class="text-center form form-border links-block">
-        <h5>Please contact me from the following Links.</h5>
+        <h4 class="lang-eng">Thank you for taking time to visit here. <br> How can I help you today?</h4>
+        <h5 class="lang-jpn inactive">ご覧いただき、ありがとうございました！ <br> よろしければ、こちらも御覧ください。</h５>
+          </div>
+          <div class="text-center form form-border links-block">
+            <h5 class="lang-eng">Plese take a look at my developments and posts!</h5>
+        <h6 class="lang-jpn inactive">自分の開発や好きなことをSNSや投稿で発信しています。</h6>
         <div class="row">
           <div class="col btn btn-secondary back-yellow btn-mylinks">
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/kaedejima/">
@@ -144,7 +158,6 @@
           </div>
           <div class="col btn btn-secondary back-yellow btn-mylinks">
             <a target="_blank" rel="noopener noreferrer" href="https://qiita.com/frogie">
-              <!-- <i class="fab fa-stack-overflow fa-2x"></i> -->
               <span class="fa-stack">
                 <i class="fa fa-square fa-stack-2x"></i>
                 <i class="fa fa-search fa-stack-1x fa-inverse fa-2x" style="color: #FDD968;"></i>
@@ -181,10 +194,9 @@
       </div>
     </div>
   </div>
-
   <footer class="font-small pt-4">
     <div class="container text-center text-md-left">
-      <a href="https://hello-kd.work/">
+      <a href="./index.html">
         <img id="kdlogo-name" src="./images/kdlogo-name-sm.png" class="d-block mx-auto mb-4">
       </a>
       <!-- <p>Busy doing nothing...</p> -->
@@ -193,46 +205,46 @@
         <div class="col-xs-6 col-sm-2 mx-auto">
           <!-- Links -->
           <h6 class="text-uppercase font-weight-bold">
-              <p>
-                <a href="index.html#about" class="text-light">About</a>
-              </p>
-            </h6>
+                <p>
+                  <a href="./index.html#about" class="text-light">About</a>
+                </p>
+              </h6>
           <p>
-              <!-- <a href="#" class="text-light">About</a> -->
-            </p>
+                <!-- <a href="#" class="text-light">About</a> -->
+              </p>
         </div>
         <div class="col-xs-6 col-sm-2 mx-auto">
           <!-- Links -->
           <h6 class="text-uppercase font-weight-bold">
-              <p>
-                <a href="index.html#skills" class="text-light">Skills</a>
-              </p>
-            </h6>
+                <p>
+                  <a href="./index.html#skills" class="text-light">Skills</a>
+                </p>
+              </h6>
           <p>
-              <!-- <a href="#" class="text-light">Skills</a> -->
-            </p>
+                <!-- <a href="#" class="text-light">Skills</a> -->
+              </p>
         </div>
         <div class="col-xs-6 col-sm-2 mx-auto">
           <!-- Links -->
           <h6 class="text-uppercase font-weight-bold">
-              <p>
-                <a href="index.html#works" class="text-light">Works</a>
-              </p>
-            </h6>
+                <p>
+                  <a href="work-home.html" class="text-light">Works</a>
+                </p>
+              </h6>
           <p>
-              <!-- <a href="#" class="text-light">Works</a> -->
-            </p>
+                <!-- <a href="#" class="text-light">Works</a> -->
+              </p>
         </div>
         <div class="col-xs-6 col-sm-2 mx-auto">
           <!-- Links -->
           <h6 class="text-uppercase font-weight-bold">
-              <p>
-                <a href="#say-hi" class="text-light">Say-Hi!</a>
-              </p>
-            </h6>
+                <p>
+                  <a href="#say-hi" class="text-light">Say-Hi!</a>
+                </p>
+              </h6>
           <p>
-              <!-- <a href="#" class="text-light">Say-Hi!</a> -->
-            </p>
+                <!-- <a href="#" class="text-light">Say-Hi!</a> -->
+              </p>
         </div>
       </div>
     </div>

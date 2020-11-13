@@ -92,5 +92,23 @@
       "exist": true,
       "page-content": true
     }
+  },
+  "work-012": {
+    "title": "JnJ",
+    "exist": false,
+    "home-link": false,
+    "custom-page": {
+      "exist": false,
+      "page-content": false
+    }
+  },
+  "work-013": {
+    "title": "WasWebCM",
+    "exist": false,
+    "home-link": false,
+    "custom-page": {
+      "exist": false,
+      "page-content": false
+    }
   }
 }
