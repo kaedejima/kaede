@@ -12,7 +12,7 @@
   <meta property="og:image" content="https://hello-kd.work/images/work-011.png" />
   <script src="https://kit.fontawesome.com/7a3e195c2e.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./scss/style.css">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DFDLJR91EF"></script>
   <script>
@@ -22,6 +22,7 @@
 
     gtag('config', 'G-DFDLJR91EF');
   </script>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="page-home">
@@ -30,6 +31,11 @@
       <a class="navbar-brand" href="https://hello-kd.work/">
         <img id="kdlogo" src="./images/kdlogo.png" alt="">
       </a>
+      <!-- Rounded switch
+      <label class="switch center-block">
+        <input type="checkbox" id="switch" onclick="toggleTheme()">
+        <span class="slider round"></span>
+      </label> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" id="hamburger">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -76,7 +82,7 @@
       </div>
       <div id="about-contents" class="mx-auto mb-4">
         <div class="row row-eq-height align-items-center">
-          <div class="col-md-6 width-300 about-icon">
+          <div class="col-md-6 width-300 drop-shadow">
             <a>
               <img src="./images/profile-icon-01.png" class="img-fluid mx-auto d-block">
             </a>
@@ -93,7 +99,7 @@
               Hope you would know more about me.
             </span>
             <div class="text-center">
-              <a href="https://github.com/kaedejima/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary back-white btn-mylinks"><i class="fab fa-github fa-2x align-middle"></i> GitHub
+              <a href="https://github.com/kaedejima/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary back-white btn-mylinks "><i class="fab fa-github fa-2x align-middle"></i> GitHub
               </a>
             </div>
           </div>
@@ -108,12 +114,13 @@
                 </li>
                 <li>2019- <strong>Tentoten</strong> Web Designer</li>
                 <li>2019 <strong>DreamOnline</strong> Web Designer</li>
+                <li>2019 <strong>Johnson & Johnson Singapore</strong> Summer Internship</li>
                 <li>2019 <strong>PADERO</strong> Hackathon, PADERO workshop</li>
                 <li>2020 <strong>SIG Software Engineering</strong> SES2020 Poster presntation</li>
                 <li>2020 <strong>Japan Research Institute</strong> DX Engineer</li>
                 <li>2020 <strong>enPiT AiBiC</strong> enPiT Summer Workshop</li>
               </ul>
-              <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a>
+              <!-- <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a> -->
             </div>
           </div>
         </div>
@@ -127,19 +134,6 @@
         <hr />
         <p>開発・制作技術</p>
       </div>
-      <!-- <div class="section-sub">
-        <h4 class="text-center section-title-sub mx-auto">Products</h4>
-        <ul>
-          <li>2019- <strong>Life is Tech!</strong> Android/WebService mentor
-          </li>
-          <li>2019- <strong>Tentoten</strong> Web Designer</li>
-          <li>2019 <strong>DreamOnline</strong> Web Designer</li>
-          <li>2019 <strong>PADERO</strong> Hackathon, PADERO workshop</li>
-          <li>2020 <strong>Japan Research Institute</strong> DX Engineer</li>
-          <li>2020 <strong>enPiT AiBiC</strong> enPiT Summer Workshop</li>
-        </ul>
-        <a href="#" class="btn btn-secondary btn-block back-brown">Take a look</a>
-      </div> -->
       <div class="section-sub">
         <h4 class="text-center section-title-sub mx-auto">Languages</h4>
         <div class="row row-eq-height">
@@ -171,7 +165,7 @@
       </div>
       <div class="navbar-empty"></div>
       <div class="text-center">
-        <a href="#works" class="btn btn-secondary back-brown btn-more text-uppercase">
+        <a href="#works" class="btn btn-secondary back-brown btn-more text-uppercase drop-shadow">
           See my works
         </a>
       </div>
@@ -326,7 +320,7 @@
             </a>
           </div> -->
           <!--           <div class="text-center col"> -->
-          <a href="#say-hi" class="btn btn-secondary back-red btn-more text-uppercase float-left">
+          <a href="#say-hi" class="btn btn-secondary back-red btn-more text-uppercase float-left drop-shadow">
             Contact me
           </a>
           <!--           </div> -->
