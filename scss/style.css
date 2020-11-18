@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 .theme-light {
   --color-primary: #FDD968;
   --color-base: #FFFFFB;
@@ -46,7 +46,7 @@ var(--font-color) */
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Amiri', 'Sawarabi Mincho';
+  font-family: 'Amiri', 'Noto Sans JP';
   color: #563F2F;
 }
 
@@ -231,10 +231,6 @@ input:checked + .slider:before {
 
 .overview-list li {
   margin: 0.6em 0px;
-}
-.exp-lng td{
-  padding: 8px 3px;
-  vertical-align: top;
 }
 
 /* NOT USED but incase, for progressbar */
@@ -422,11 +418,7 @@ var(--font-color) */
   filter: grayscale(100%) blur(0.5px);
 }
 
-.card-title {
-  margin-bottom: 0px;
-}
-
-.card-text {
+.card-title, .card-text {
   margin-bottom: 0px;
 }
 
@@ -435,6 +427,18 @@ var(--font-color) */
   border-radius: 10px;
 }
 
+@media screen and (max-width: 480px) {
+  .card-description {
+    display: none;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .card-text, .card-title {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
 .theme-light {
   --color-primary: #FDD968;
   --color-base: #FFFFFB;
