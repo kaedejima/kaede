@@ -1,5 +1,7 @@
 // ******************** ONLOAD ********************
 window.onload = function () {
+    // $('.header').load("header.html");
+    // $('#header').append('<div>BeforeEnd</div>');
 };
 // ******************** NAVIGATION BAR ********************
 $(function () {
