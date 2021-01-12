@@ -49,3 +49,4 @@ $(function () {
         $(".work-more-content").toggleClass("inactive");
     })
 });
+// ******************** RESPONSIVE ********************
