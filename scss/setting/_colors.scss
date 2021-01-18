@@ -3,3 +3,23 @@ $primary-color: #FDD968;
 $darker-primary: #ffbb00;
 $secondary-color: #563F2F;
 $accent-color: #ef5655;
+
+.theme-light {
+    --color-primary: #FDD968;
+    --color-base: #FFFFFB;
+    --color-primary-darker: #ffbb00;
+    --color-accent: #ef5655;
+    --font-color: #563F2F;
+}
+/* var(--color-primary)
+var(--color-primary-darker)
+var(--color-secondary)
+var(--color-accent)
+var(--font-color) */
+.theme-dark {
+    --color-primary: #ef5655;
+    --color-secondary: #563F2F;
+    --color-primary-darker: #d83d3d;
+    --color-accent: #FFFFFB;
+    --font-color: #FDD968;
+}

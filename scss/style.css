@@ -421,6 +421,10 @@ var(--font-color) */
 .card-img-top {
   padding: 2px;
   filter: grayscale(100%) blur(0.5px);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: -5px;
+  z-index: -1;
 }
 
 .card-title, .card-text {
