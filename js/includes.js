@@ -1,8 +1,11 @@
 
-function navbar() {
-  var navbar = "<nav class='navbar navbar-expand-lg navbar-dark static-top fixed-top'> <div class='container'> <a class='navbar-brand' href='./index.html'> <img id='kdlogo' src='./images/kdlogo.png' alt=''> </a> <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive' aria-controls='navbarResponsive' aria-expanded='false' aria-label='Toggle navigation' id='hamburger'> <span class='navbar-toggler-icon'></span> </button> <div class='collapse navbar-collapse' id='navbarResponsive'> <ul class='navbar-nav ml-auto'> <li class='nav-item'> <a class='nav-link' href='./index.html'>Home </a> </li> <li class='nav-item'> <a class='nav-link' href='index.html#about'>About</a> </li> <li class='nav-item'> <a class='nav-link' href='index.html#skills'>Skills</a> </li> <li class='nav-item active'> <a class='nav-link' href='index.html#works'>Works <span class='sr-only'>(current)</span> </a> </li> <li class='nav-item'> <a class='nav-link' href='#say-hi'>Say-Hi!</a> </li> </ul> </div> </div> </nav>";
+function navbar(page) {
+  var navbar = "<nav class='navbar navbar-expand-lg navbar-dark static-top fixed-top'> <div class='container'> <a class='navbar-brand' href='./index.html'> <img id='kdlogo' src='./images/kdlogo.png' alt=''> </a> <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive' aria-controls='navbarResponsive' aria-expanded='false' aria-label='Toggle navigation' id='hamburger'> <span class='navbar-toggler-icon'></span> </button> <div class='collapse navbar-collapse' id='navbarResponsive'> <ul class='navbar-nav ml-auto'> <li class='nav-item'> <a class='nav-link' id='nav-home' href='./index.html'>Home </a> </li> <li class='nav-item'> <a class='nav-link' id='nav-about' href='index.html#about'>About</a> </li> <li class='nav-item'> <a class='nav-link' id='nav-skills' href='index.html#skills'>Skills</a> </li> <li class='nav-item'> <a class='nav-link' id='nav-works' href='index.html#works'>Works </a> </li> <li class='nav-item'> <a class='nav-link' id='nav-sayhi' href='#say-hi'>Say-Hi!</a> </li> </ul> </div> </div> </nav>";
   document.write(navbar);
-}
+  (function () {
+    document.getElementById("nav-" + page).classList.toggle("active")
+  })();
+};
 
 function top_area() {
   var top_area = "<div class='jumbotron jumbotron-extend'> <div class='container jumbotron-container'> <div id='top-sq' class='mx-auto text-center'> <div class='py-5'> <h4>Kaede Iijima</h4> <p>1999 May 23</p> <h6>Studying Computer Science and Communication Engineering at Waseda University</h6> </div> </div> </div> </div>";
