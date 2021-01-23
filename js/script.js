@@ -3,7 +3,7 @@ window.onload = function () {
     // $('.header').load("header.html");
     // $('#header').append('<div>BeforeEnd</div>');
 }
-var image_elements = document.getElementsByTagName('img');
+var image_elements = document.querySelectorAll('img');
 if (image_elements.length) { // disable dragging
     for (i = 0; i < image_elements.length; i++) {
         image_elements[i].setAttribute("oncontextmenu", "return false;");
@@ -40,18 +40,20 @@ function toggleTheme() {
     }
 })();
 // ******************** LANGUAGE SWITCH ********************
-$(function () {
-    $(".section").on('click', function () {
-        // $(this).toggleClass("rotated-image");
-        $(".lang-jpn").toggleClass("inactive");
-        $(".lang-eng").toggleClass("inactive");
-    })
-});
+var section = document.querySelectorAll(".section")
+for (j = 0; j < section.length; j++) {
+    section[j].onclick = function () {
+        console.log("clicked!");
+        var jpn = document.querySelectorAll(".lang-jpn");
+        var eng = document.querySelectorAll(".lang-eng");
+        for (i = 0; i < jpn.length; i++) {
+            jpn[i].classList.toggle("inactive");
+            eng[i].classList.toggle("inactive");
+        }
+    }
+}
 // ******************** WORK PAGES ********************
-$(function () {
-    $(".work-more").on('click', function () {
-        // $(this).toggleClass("rotated-image");
-        $(".work-more-content").toggleClass("inactive");
-    })
-});
+document.querySelector(".work-more").onclick = function () {
+    document.querySelector(".work-more-content").classList.toggle("inactive");
+}
 // ******************** RESPONSIVE ********************
