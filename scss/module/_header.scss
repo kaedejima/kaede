@@ -1,8 +1,6 @@
-@import "../setting/colors.scss";
-
 /* navbar */
 .navbar-dark {
-    background-color: $secondary-color;
+    background-color: var(--color-secondary);
     filter: drop-shadow(1px 1px 5px #00000030);
 }
 

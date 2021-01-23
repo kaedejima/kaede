@@ -1,11 +1,9 @@
-@import "../setting/colors.scss";
-
 footer {
   padding-left: 16px;
   padding-right: 16px;
   width: 100%;
-  background-color: $secondary-color;
-  color: $base-color;
+  background-color: var(--color-secondary);
+  color: var(--color-base);
   #footer-name {
     margin-top: 7px;
     margin-left: 16px;

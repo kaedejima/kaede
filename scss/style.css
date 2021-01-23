@@ -1,57 +1,35 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap");
-.theme-light {
+:root {
   --color-primary: #FDD968;
+  --color-secondary:#563F2F;
   --color-base: #FFFFFB;
   --color-primary-darker: #ffbb00;
   --color-accent: #ef5655;
   --font-color: #563F2F;
 }
 
-/* var(--color-primary)
-var(--color-primary-darker)
-var(--color-secondary)
-var(--color-accent)
-var(--font-color) */
-.theme-dark {
-  --color-primary: #ef5655;
-  --color-secondary: #563F2F;
-  --color-primary-darker: #d83d3d;
-  --color-accent: #FFFFFB;
-  --font-color: #FDD968;
-}
-
-.theme-light {
-  --color-primary: #FDD968;
-  --color-base: #FFFFFB;
-  --color-primary-darker: #ffbb00;
-  --color-accent: #ef5655;
-  --font-color: #563F2F;
-}
-
-/* var(--color-primary)
-var(--color-primary-darker)
-var(--color-secondary)
-var(--color-accent)
-var(--font-color) */
-.theme-dark {
-  --color-primary: #ef5655;
-  --color-secondary: #563F2F;
-  --color-primary-darker: #d83d3d;
-  --color-accent: #FFFFFB;
-  --font-color: #FDD968;
+/* .theme-dark {
+    --color-primary: #ef5655;
+    --color-secondary: #563F2F;
+    --color-primary-darker: #d83d3d;
+    --color-accent: #FFFFFB;
+    --font-color: #FDD968;
+} */
+.drop-shadow {
+  /* --drop-shadow: drop-shadow(1px 1px 5px #00000030); */
 }
 
 * {
   margin: 0;
   padding: 0;
   font-family: 'Amiri', 'Sawarabi Mincho';
-  color: #563F2F;
+  color: var(--color-secondary);
 }
 
 body {
-  background-color: #FDD968;
+  background-color: var(--color-primary);
   min-height: 100vh;
   position: relative;
   /*←相対位置*/
@@ -66,17 +44,17 @@ ul {
 
 a {
   text-decoration: none;
-  color: #563F2F;
+  color: var(--color-secondary);
 }
 a:hover {
   text-decoration: none;
-  color: #563F2F;
+  color: var(--color-secondary);
 }
 
 hr {
   margin-top: 0px;
   margin-bottom: 5px;
-  border-color: #563F2F;
+  border-color: var(--color-secondary);
   border-width: 3px;
 }
 
@@ -93,7 +71,7 @@ hr {
 }
 
 .section-title-sub {
-  background-color: #FDD968;
+  background-color: var(--color-primary);
   margin-top: -73px;
   margin-bottom: 30px;
   width: 10rem;
@@ -104,7 +82,7 @@ hr {
   padding-bottom: 40px;
   margin: 0px;
   margin-top: 60px;
-  border: solid 1px #563F2F;
+  border: solid 1px var(--color-secondary);
 }
 
 /* SWITCHER */
@@ -173,22 +151,22 @@ input:checked + .slider:before {
 
 /* background templates */
 .back-white {
-  color: #563F2F;
-  background-color: #FFFFFB;
+  color: var(--color-secondary);
+  background-color: var(--color-base);
 }
 
 .back-yellow {
-  color: #563F2F;
-  background-color: #FDD968;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
 }
 
 .back-brown {
-  color: #FFFFFB;
-  background-color: #563F2F;
+  color: var(--color-base);
+  background-color: var(--color-secondary);
 }
 
 .back-red {
-  background-color: #ef5655;
+  background-color: var(--color-accent);
 }
 
 /* BUTTONS */
@@ -198,7 +176,7 @@ input:checked + .slider:before {
 }
 .btn:hover {
   color: #563F2F;
-  background-color: #ffbb00;
+  background-color: var(--color-primary-darker);
   border: none;
 }
 
@@ -277,30 +255,9 @@ form {
   border: solid 1px #563F2F;
 }
 
-.theme-light {
-  --color-primary: #FDD968;
-  --color-base: #FFFFFB;
-  --color-primary-darker: #ffbb00;
-  --color-accent: #ef5655;
-  --font-color: #563F2F;
-}
-
-/* var(--color-primary)
-var(--color-primary-darker)
-var(--color-secondary)
-var(--color-accent)
-var(--font-color) */
-.theme-dark {
-  --color-primary: #ef5655;
-  --color-secondary: #563F2F;
-  --color-primary-darker: #d83d3d;
-  --color-accent: #FFFFFB;
-  --font-color: #FDD968;
-}
-
 /* navbar */
 .navbar-dark {
-  background-color: #563F2F;
+  background-color: var(--color-secondary);
   filter: drop-shadow(1px 1px 5px #00000030);
 }
 
@@ -337,27 +294,6 @@ var(--font-color) */
   height: 79px;
 }
 
-.theme-light {
-  --color-primary: #FDD968;
-  --color-base: #FFFFFB;
-  --color-primary-darker: #ffbb00;
-  --color-accent: #ef5655;
-  --font-color: #563F2F;
-}
-
-/* var(--color-primary)
-var(--color-primary-darker)
-var(--color-secondary)
-var(--color-accent)
-var(--font-color) */
-.theme-dark {
-  --color-primary: #ef5655;
-  --color-secondary: #563F2F;
-  --color-primary-darker: #d83d3d;
-  --color-accent: #FFFFFB;
-  --font-color: #FDD968;
-}
-
 .jumbotron {
   margin-bottom: 0px;
 }
@@ -382,27 +318,6 @@ var(--font-color) */
   filter: blur(0px);
 }
 
-.theme-light {
-  --color-primary: #FDD968;
-  --color-base: #FFFFFB;
-  --color-primary-darker: #ffbb00;
-  --color-accent: #ef5655;
-  --font-color: #563F2F;
-}
-
-/* var(--color-primary)
-var(--color-primary-darker)
-var(--color-secondary)
-var(--color-accent)
-var(--font-color) */
-.theme-dark {
-  --color-primary: #ef5655;
-  --color-secondary: #563F2F;
-  --color-primary-darker: #d83d3d;
-  --color-accent: #FFFFFB;
-  --font-color: #FDD968;
-}
-
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
@@ -411,12 +326,12 @@ var(--font-color) */
 }
 
 .card {
-  border: solid 3px #FDD968;
+  border: solid 3px var(--color-primary);
   border-radius: 12px;
   filter: drop-shadow(1px 1px 5px #00000030);
 }
 .card:hover {
-  border: solid 3px #ffbb00;
+  border: solid 3px var(--color-primary-darker);
 }
 
 .card-img-top {
@@ -433,7 +348,7 @@ var(--font-color) */
 }
 
 .card-body {
-  border: solid 2px #FDD968;
+  border: solid 2px var(--color-primary);
   border-radius: 8px;
 }
 
@@ -449,33 +364,12 @@ var(--font-color) */
     overflow: hidden;
   }
 }
-.theme-light {
-  --color-primary: #FDD968;
-  --color-base: #FFFFFB;
-  --color-primary-darker: #ffbb00;
-  --color-accent: #ef5655;
-  --font-color: #563F2F;
-}
-
-/* var(--color-primary)
-var(--color-primary-darker)
-var(--color-secondary)
-var(--color-accent)
-var(--font-color) */
-.theme-dark {
-  --color-primary: #ef5655;
-  --color-secondary: #563F2F;
-  --color-primary-darker: #d83d3d;
-  --color-accent: #FFFFFB;
-  --font-color: #FDD968;
-}
-
 footer {
   padding-left: 16px;
   padding-right: 16px;
   width: 100%;
-  background-color: #563F2F;
-  color: #FFFFFB;
+  background-color: var(--color-secondary);
+  color: var(--color-base);
 }
 footer #footer-name {
   margin-top: 7px;
