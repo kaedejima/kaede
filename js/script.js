@@ -12,12 +12,9 @@ if (image_elements.length) { // disable dragging
     }
 }
 // ******************** NAVIGATION BAR ********************
-$(function () {
-    $("#hamburger").on('click', function () {
-        // $(this).toggleClass("rotated-image");
-        $(this).toggleClass("rotate");
-    })
-});
+document.querySelector("#hamburger").onclick = function () {
+    this.classList.toggle("rotate")
+}
 // ******************** CHANGE THEME ********************
 // function to set a given theme/color-scheme
 function setTheme(themeName) {
