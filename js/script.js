@@ -2,7 +2,15 @@
 window.onload = function () {
     // $('.header').load("header.html");
     // $('#header').append('<div>BeforeEnd</div>');
-};
+}
+var image_elements = document.getElementsByTagName('img');
+if (image_elements.length) { // disable dragging
+    for (i = 0; i < image_elements.length; i++) {
+        image_elements[i].setAttribute("oncontextmenu", "return false;");
+        image_elements[i].setAttribute("onselectstart", "return false;");
+        image_elements[i].setAttribute("onmousedown", "return false;");
+    }
+}
 // ******************** NAVIGATION BAR ********************
 $(function () {
     $("#hamburger").on('click', function () {
