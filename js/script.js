@@ -13,7 +13,7 @@ if (image_elements.length) { // disable dragging
 }
 // ******************** NAVIGATION BAR ********************
 document.querySelector("#hamburger").onclick = function () {
-    this.classList.toggle("rotate")
+    this.classList.toggle("rotate");
 }
 // ******************** CHANGE THEME ********************
 // function to set a given theme/color-scheme
@@ -53,7 +53,9 @@ for (j = 0; j < section.length; j++) {
     }
 }
 // ******************** WORK PAGES ********************
-document.querySelector(".work-more").onclick = function () {
-    document.querySelector(".work-more-content").classList.toggle("inactive");
+if (document.querySelector("body").classList.contains("work")) {
+    document.querySelector(".work-more").onclick = function () {
+        document.querySelector(".work-more-content").classList.toggle("inactive");
+    }
 }
 // ******************** RESPONSIVE ********************
