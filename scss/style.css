@@ -58,6 +58,16 @@ hr {
   border-width: 3px;
 }
 
+@media screen and (max-width: 480px) {
+  hr {
+    margin-bottom: 0px;
+    border-width: 2px;
+  }
+
+  .btn {
+    width: auto;
+  }
+}
 .section {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -345,6 +355,7 @@ form {
 .card-title, .card-text {
   margin-bottom: 0px;
   white-space: nowrap;
+  overflow: hidden;
 }
 
 .card-body {
@@ -362,6 +373,10 @@ form {
   .card-text, .card-title {
     white-space: nowrap;
     overflow: hidden;
+  }
+
+  .card-body {
+    padding: 1rem;
   }
 }
 footer {

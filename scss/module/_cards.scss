@@ -25,6 +25,7 @@
 .card-title, .card-text {
     margin-bottom: 0px;
     white-space: nowrap;
+    overflow: hidden;
 }
 
 .card-body {
@@ -40,6 +41,9 @@
     }
     .card-text, .card-title{
         white-space: nowrap;
-        overflow:hidden
+        overflow:hidden;
+    }
+    .card-body {
+        padding: 1rem;
     }
 }

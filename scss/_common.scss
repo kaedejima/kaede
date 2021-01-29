@@ -36,6 +36,15 @@ hr {
   border-color: var(--color-secondary);
   border-width: 3px;
 }
+@media screen and (max-width:480px){
+  hr {
+    margin-bottom: 0px;
+    border-width: 2px;
+  }
+  .btn {
+    width: auto;
+  }
+}
 
 .section {
     padding-top: 50px;

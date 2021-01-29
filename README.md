@@ -12,8 +12,7 @@ Thank you for taking time visiting my github page. ✨✨ I hope you would know 
 - Enjoy developing Android/Web apps and automating system for oneself.
 - Proficient in both Japanese and English.
 - Likes basketball🏀, cycling🚴🏻‍♀️, and reading books📚.
-- This page is where I leave my tech info, but you can also see me in <a href="https://qiita.com/frogie">Qiita</a>, <a href="din.com/in/kaede-i-619a141aa/">LinkedIn</a> for tech profiles. \
-OR <a href="https://twitter.com/kaedejima">Twitter</a>, <a href="https://www.instagram.com/kaedejima/">Instagram</a> for my likes and hobbies.
+
 ## ⌨️Technical Skills
 - Java, Python, Kotlin, Ruby, HTML, JavaScript
 - Android Studio, Sinatra, GraphQL, JQuery
