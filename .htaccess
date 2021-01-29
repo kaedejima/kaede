@@ -1,2 +1,0 @@
-SetEnvIf Origin "^https?://(www\.)?(slideshare.net)$" ORIGIN=$0
-Header set Access-Control-Allow-Origin %{ORIGIN}e env=ORIGIN
