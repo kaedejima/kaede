@@ -1,5 +1,5 @@
 # Hi, I'm KD 👋🏼 👩🏻‍💻
-<img src="./img/github-wideheader.png" />
+<img src="./images/github-wideheader.png" />
 Thank you for taking time visiting my github page. ✨✨ I hope you would know more about me.
 <!-- 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kaedejima&count_private=true&show_icons=true&theme=tokyonight)
