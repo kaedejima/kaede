@@ -43,7 +43,6 @@ function toggleTheme() {
 var section = document.querySelectorAll(".section")
 for (j = 0; j < section.length; j++) {
     section[j].onclick = function () {
-        console.log("clicked!");
         var jpn = document.querySelectorAll(".lang-jpn");
         var eng = document.querySelectorAll(".lang-eng");
         for (i = 0; i < jpn.length; i++) {
