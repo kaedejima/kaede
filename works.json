@@ -113,11 +113,11 @@
   },
   "work-014":{
     "title": "imactive",
-    "exist": false,
-    "home-link": false,
+    "exist": true,
+    "home-link": true,
     "custom-page": {
-      "exist": false,
-      "page-content": false
+      "exist": true,
+      "page-content": true
     }
   }
 }
