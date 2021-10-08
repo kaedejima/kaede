@@ -51,6 +51,11 @@ a:hover {
   color: var(--color-secondary);
 }
 
+.hover-secondary:hover {
+  text-decoration: underline;
+  /* color: var(--color-primary); */
+}
+
 hr {
   margin-top: 0px;
   margin-bottom: 5px;

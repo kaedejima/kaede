@@ -29,6 +29,10 @@ a{
     color: var(--color-secondary);
   }
 }
+.hover-secondary:hover{
+  text-decoration: underline;
+  /* color: var(--color-primary); */
+}
 
 hr {
   margin-top: 0px;
