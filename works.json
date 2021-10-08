@@ -103,7 +103,7 @@
     }
   },
   "work-013": {
-    "title": "WasWebCM",
+    "title": "was-web-cm",
     "exist": true,
     "home-link": true,
     "custom-page": {
@@ -118,6 +118,15 @@
     "custom-page": {
       "exist": true,
       "page-content": true
+    }
+  },
+  "work-15":{
+    "title": "erase-net",
+    "exist": false,
+    "home-link": false,
+    "custome-page":{
+      "exist": false,
+      "page-component": false
     }
   }
 }
