@@ -100,15 +100,6 @@ hr {
   border: solid 1px var(--color-secondary);
 }
 
-.work-more-content {
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-
 /* SWITCHER */
 /* The switch - the box around the slider */
 .switch {
@@ -250,6 +241,15 @@ td {
 
   .section-title-sub {
     margin-bottom: 0px;
+  }
+
+  .work-more-content {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
   }
 }
 /* NOT USED but incase, for progressbar */
