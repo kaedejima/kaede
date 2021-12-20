@@ -120,7 +120,7 @@
       "page-content": true
     }
   },
-  "work-15":{
+  "work-015":{
     "title": "erase-net",
     "exist": true,
     "home-link": true,
@@ -129,13 +129,22 @@
       "page-component": true
     }
   },
-  "work-16":{
+  "work-016":{
     "title": "chat-app",
-    "exist": false,
-    "home-link": false,
+    "exist": true,
+    "home-link": true,
     "custome-page":{
       "exist": false,
       "page-component": false
+    }
+  },
+  "work-017":{
+    "title": "My Profile v2",
+    "exist": true,
+    "home-link": true,
+    "custome-page":{
+      "exist": true,
+      "page-component": true
     }
   }
 }
