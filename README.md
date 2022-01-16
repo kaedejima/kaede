@@ -14,20 +14,33 @@ Thank you for taking time visiting my github page. ✨✨ I hope you would know 
 - Likes basketball🏀, cycling🚴🏻‍♀️, and reading books📚.
 
 ## ⌨️Technical Skills
-- Java, Python, Kotlin, Ruby, HTML, JavaScript
+- ReactJS, VueJS, NodeJS, Java, Python, Kotlin, Ruby
 - Android Studio, Sinatra, GraphQL, JQuery
 - Illustrator, Photoshop, AfterEffects, WordPress
 
 ## 📃 Experiences
+### Collage Societies
+- FRONTEND TEAM LEAD 🎨 \
+[ @GDSCWASEDA | SEP 2021 - ] \
+Manage the frontend team, and projects. \
+Skills: Management, React, JavaScript,
+
 ### Internships
+- WEB DEVELOPER 🖥 \
+[ @TEDIX | MAR 2021 - ] \
+Web design and development. \
+Skills: React, Vue, Nodejs, GAS, UI design \
+PJ: Demo website of image process service, stock info website.
+
 - <a href="https://camp.life-is-tech.com/course/androidapps/">ANDROID</a>/ <a href="https://camp.life-is-tech.com/course/webservice/">WEB SERVICE</a> APP MENTOR 👩🏻‍💻 \
-[ <a href="https://life-is-tech.com/">@LIFE IS TECH!</a> | JUNE 2019- ] \
-Teach android/web app development to students in age 11-18 using Java and Kotlin for Android, HTML, CSS, JavaScript, and Ruby for web app.
+[ <a href="https://life-is-tech.com/">@LIFE IS TECH!</a> | JUNE 2019 - MAY 2021 ] \
+Teach android/web app development to students in age 11-18. \
+Skills: Facilitation&Management, Kotlin, Java, Ruby, Javascript, HTML/CSS
+
 - WEB DESIGNER ASSISTANT 🎨 \
-[ <a href="https://tentoten.jp/">@TENTOTEN</a> | JUNE 2019- ] \
+[ <a href="https://tentoten.jp/">@TENTOTEN</a> | JUNE 2019 - DEC 2020 ] \
 Web development with WordPress, Elementor, Illustrator.\
-My recent product is <a href="https://takagikaikei.co.jp/">Takagi
-Accounting Firm</a>.
+
 - <a href="https://www.jri-career.com/internship.html">DX ENGINEER</a> 🖥 \
 [ <a href="https://www.jri.co.jp/">@JAPAN RESEARCH INSTITUTE</a> | AUG 2020 ] 5days \
 Developed and designed the accounting Android app with java with group members.
