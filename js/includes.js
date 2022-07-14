@@ -15,7 +15,7 @@ function navbarWorks(page) {
 };
 
 function top_area() {
-  var top_area = "<div class='jumbotron jumbotron-extend'> <div class='container jumbotron-container'> <div id='top-sq' class='mx-auto text-center'> <div class='py-5'> <h4>KD</h4> <p>1999 May 23</p> <h6>Studying Computer Science and Communication Engineering at Waseda University</h6> </div> </div> </div> </div>";
+  var top_area = "<div class='jumbotron jumbotron-extend'> <div class='container jumbotron-container'> <div id='top-sq' class='mx-auto text-center'> <div class='py-5'> <h4>KD</h4> <p>1999 May 23</p> <h6>HELL YEAH OR NO. <br> Thinking the implementation of designs/systems. Spent the gap year in the fishery industry.</h6> </div> </div> </div> </div>";
   document.write(top_area);
 }
 
