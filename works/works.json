@@ -146,5 +146,14 @@
       "exist": true,
       "page-component": true
     }
+  },
+  "work-018":{
+    "title": "Wataki Suisan",
+    "exist": true,
+    "home-link": true,
+    "custome-page":{
+      "exist": true,
+      "page-component": true
+    }
   }
 }
