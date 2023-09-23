@@ -204,6 +204,10 @@ input:checked + .slider:before {
 td{
   vertical-align: top;
   padding: 5px;
+  &.tbl-year {
+    width: 100px;
+    text-align: end;
+  }
 }
 
 @media screen and (max-width:480px){

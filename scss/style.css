@@ -227,6 +227,10 @@ td {
   vertical-align: top;
   padding: 5px;
 }
+td.tbl-year {
+  width: 100px;
+  text-align: end;
+}
 
 @media screen and (max-width: 480px) {
   .section-sub {
